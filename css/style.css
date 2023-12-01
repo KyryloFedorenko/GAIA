@@ -75,7 +75,20 @@ ul li:hover {
   color: #fff;
   background-color: #60731A;
 }
-
+/*  */
+.forests-body-block1 {
+  column-count: 2;
+  padding: 100px 0 0 0;
+}
+.forests-body-block1 h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.forests-body-block1 p{
+  font-size: 30px;
+  padding-left: 100px;
+}
 /*  */
 .footer {
   background-color: #A3BF3B;
