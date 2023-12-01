@@ -3,7 +3,6 @@
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-2-hex { color: #A3BF3B; }
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-3-hex { color: #D6D97E; }
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-4-hex { color: #F2EDD5; }
-.hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-5-hex { color: #8C4227; }
 
 
 * {
@@ -107,14 +106,14 @@ ul li:hover {
 /* ===================================Activism-About========================================== */
 .aa-body-block1 {
   display: flex;
-  align-items: center;
+
   padding: 100px 0 100px 0;
 }
 .aa-body-block1 h2{
   font-size: 30px;
-  margin-bottom: 50px;
   font-weight: 500;
-  margin-right: 500px;
+  width: 120px;
+  margin-right: 200px;
 }
 .aa-body-block1 p{
   font-size: 30px;
