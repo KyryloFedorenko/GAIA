@@ -14,7 +14,7 @@
   color: #000;
 }
 
-/* ===================================Index========================================== */
+/* ===================================Navbar========================================== */
 .header {
   padding: 10px;
   display: flex;
@@ -42,8 +42,7 @@ ul li:hover {
 .selected {
   border-bottom: solid 1px #000;
 }
-
-/*  */
+/* ===================================Index========================================== */
 .body {
   background-color: #D6D97E;
 }
@@ -83,7 +82,7 @@ ul li:hover {
   width: 1400px;
   margin: 0 auto;
 }
-/*  */
+/* ===================================Forest-Seas-Recycling========================================== */
 .fsr-body-block1 {
   column-count: 2;
   padding: 100px 0 200px 0;
@@ -105,12 +104,19 @@ ul li:hover {
   width: 1400px;
   margin: 0 auto;
 }
-/*  */
+/* ===================================Activism-About========================================== */
 .aa-body-block1 {
-  column-count: 2;
+  display: flex;
+  align-items: center;
   padding: 100px 0 100px 0;
 }
 .aa-body-block1 h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  margin-right: 500px;
+}
+.aa-body-block1 p{
   font-size: 30px;
   margin-bottom: 50px;
   font-weight: 500;
@@ -142,7 +148,7 @@ ul li:hover {
   background-color: #A3BF3B;
   margin: 10px;
 }
-/*  */
+/* ===================================Contact========================================== */
 .c-body-block1 {
   padding: 100px 0 144px 0;
 }
@@ -187,7 +193,7 @@ input[type=submit] {
   margin-top: 10px;
   margin-left: -920px;
 }
-/*  */
+/* ===================================Footer========================================== */
 .footer {
   background-color: #A3BF3B;
   border-top: 1px solid #000;
