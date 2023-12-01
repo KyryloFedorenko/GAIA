@@ -106,6 +106,51 @@ ul li:hover {
   margin: 0 auto;
 }
 /*  */
+.c-body-block1 {
+  padding: 100px 0 144px 0;
+}
+.c-body-block1 h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.contact-container {
+  background-color: #A3BF3B;
+  padding: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.contact-container-text1 {
+  width: 496px;
+  text-decoration: none;
+}
+.contact-container-text2 {
+  width: 1000px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.contact-container-text3 {
+  width: 1005px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.contact-container-text4 {
+  width: 1000px;
+  height: 100px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+input[type=submit] {
+  background-color: #60731A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: -920px;
+}
+/*  */
 .footer {
   background-color: #A3BF3B;
   border-top: 1px solid #000;
@@ -116,10 +161,3 @@ ul li:hover {
   padding: 20px;
   text-decoration: underline;
 }
-
-/* ===================================Forests======================================== */
-/* ===================================Seas=========================================== */
-/* ===================================Recycling====================================== */
-/* ===================================Activism======================================= */
-/* ===================================Contact======================================== */
-/* ===================================About========================================== */
