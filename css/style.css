@@ -75,6 +75,14 @@ ul li:hover {
   color: #fff;
   background-color: #60731A;
 }
+.body-block2 {
+  background-color: #60731A;
+}
+.body-block2 img{
+  display: block;
+  width: 1400px;
+  margin: 0 auto;
+}
 /*  */
 .fsr-body-block1 {
   column-count: 2;
@@ -88,6 +96,14 @@ ul li:hover {
 .fsr-body-block1 p{
   font-size: 30px;
   padding-left: 100px;
+}
+.fsr-body-block2 {
+  background-color: #60731A;
+}
+.fsr-body-block2 img{
+  display: block;
+  width: 1400px;
+  margin: 0 auto;
 }
 /*  */
 .footer {
