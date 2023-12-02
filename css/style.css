@@ -3,8 +3,6 @@
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-2-hex { color: #A3BF3B; }
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-3-hex { color: #D6D97E; }
 .hand-holding-tree-on-blur-green-nature-background.-concept-eco-earth-day-4-hex { color: #F2EDD5; }
-
-
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +10,6 @@
   text-decoration: none;
   color: #000;
 }
-
 /* ===================================Navbar========================================== */
 .header {
   padding: 10px;
@@ -20,30 +17,27 @@
   border-bottom: 1px solid #000;
   justify-content:space-around;
   background-color: #A3BF3B;
+  width: 100%;
 }
-
 .header h1 {
   padding: 0 10px;
   margin: 0 10px;
 }
-
 ul li {
   display: inline-block;
   padding: 10px 20px;
   border-bottom: solid 1px transparent;
 }
-
 ul li:hover {
-
   border-bottom: solid 1px #000;
 }
-
 .selected {
   border-bottom: solid 1px #000;
 }
 /* ===================================Index========================================== */
 .body {
   background-color: #D6D97E;
+  width: 100%;
 }
 .body-container {
   width: 1400px;
@@ -106,7 +100,6 @@ ul li:hover {
 /* ===================================Activism-About========================================== */
 .aa-body-block1 {
   display: flex;
-
   padding: 100px 0 100px 0;
 }
 .aa-body-block1 h2{
@@ -149,7 +142,8 @@ ul li:hover {
 }
 /* ===================================Contact========================================== */
 .c-body-block1 {
-  padding: 100px 0 144px 0;
+  padding: 100px 0 167px 0;
+  width: 100%;
 }
 .c-body-block1 h2{
   font-size: 30px;
@@ -196,10 +190,105 @@ input[type=submit] {
 .footer {
   background-color: #A3BF3B;
   border-top: 1px solid #000;
+  width: 100%;
 }
 
 .footer h3 {
   text-align: center;
   padding: 20px;
   text-decoration: underline;
+}
+/* ===================================Responsive-Website-1400========================================== */
+@media screen and (max-width: 1400px) {
+  /* index */
+  .body-container {
+    width: 1000px;
+    margin: 0 auto;
+    
+  }
+  .body-block1 {
+    column-count: 1;
+    padding: 100px 0 200px 0;
+  }
+  .body-block1 img{
+    width: 100%;
+  }
+  .body-block2 img{
+    display:none;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* fsr */
+  .fsr-body-block1 {
+    column-count: 1;
+    padding: 100px 0 200px 0;
+    text-align: center;
+  }
+  .fsr-body-block1 h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
+  }
+  .fsr-body-block1 p{
+    margin-top: 145px;
+    font-size: 30px;
+    padding: 0;
+  }
+  .fsr-body-block2 img{
+    display: none;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  /* aa */
+  /* contact */
+  .c-body-block1 h2 {
+    text-align: center;
+  }
+  .contact-container-text1 {
+    margin-top: 10px;
+  }
+  .contact-container form input{
+    width: 100%;
+  }
+  .contact-container form textarea{
+    width: 100%;
+  }
+  .contact-container form select{
+    width: 100%;
+  }
+  input[type=submit] {
+    background-color: #60731A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100px;
+  }
+  .contact-container {
+    margin-bottom: 370px;
+  }
+}
+/* ===================================Responsive-Website-900========================================== */
+@media screen and (max-width: 900px) {
+  .body-container {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .body-block1 {
+    column-count: 1;
+    padding: 100px 0 200px 0;
+  }
+  .body-block1 img{
+    width: 100%;
+  }
+  .body-block2 img{
+    display:none;
+    width: 1400px;
+    margin: 0 auto;
+  }
 }
